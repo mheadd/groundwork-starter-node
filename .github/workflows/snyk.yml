@@ -2,6 +2,8 @@ name: Workflow for Node using Snyk
 on: push
 jobs:
   security:
+    permissions: 
+      security-events: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
