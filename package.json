@@ -1,5 +1,6 @@
 {
   "name": "groundwork-starter-node",
+  "description": "A starter application for the Ad Hoc Groundwork platform",
   "version": "1.0.0",
   "private": false,
   "scripts": {
